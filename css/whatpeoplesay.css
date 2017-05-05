@@ -1,0 +1,45 @@
+/* line 1, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay {
+  text-align: center;
+  width: 100%;
+  height: 830px;
+  background: url(../img/Whatpeoplesay_bg.png) no-repeat;
+}
+/* line 7, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay .media-items {
+  margin: 0 0 0 0;
+}
+/* line 9, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay .media-items .media {
+  margin-top: 70px;
+}
+/* line 11, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay .media-items .media-body {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: RGB(153, 153, 153);
+  line-height: 1.7;
+}
+/* line 17, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay .media-items .media-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: RGB(51, 51, 51);
+  text-transform: uppercase;
+  text-align: left;
+}
+/* line 24, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay .media-items .media-heading-italic {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: RGB(51, 51, 51);
+  font-style: italic;
+}
+/* line 30, ../sass/whatpeoplesay.sass */
+.Whatpeoplesay .media-items .rectangle {
+  text-align: left;
+  margin: 10px 0 10px 0;
+}

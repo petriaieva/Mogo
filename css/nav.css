@@ -1,0 +1,78 @@
+/* NAVBAR */
+/* line 6, ../sass/nav.sass */
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  padding: 16px 5px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+/* line 15, ../sass/nav.sass */
+.navbar-default {
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+/* line 20, ../sass/nav.sass */
+.nav_scrolled {
+  padding: 0px 5px;
+  opacity: 0.8;
+}
+
+/* line 24, ../sass/nav.sass */
+.nav_list {
+  padding: 0;
+  margin: 16px 0;
+}
+
+/* line 28, ../sass/nav.sass */
+.nav_list li {
+  display: inline-block;
+}
+
+/* line 31, ../sass/nav.sass */
+.nav_link {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+/* line 40, ../sass/nav.sass */
+.nav_link:hover {
+  color: #fce38a;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 44, ../sass/nav.sass */
+  .nav {
+    padding: 0;
+  }
+
+  /* line 47, ../sass/nav.sass */
+  .nav_list {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 51, ../sass/nav.sass */
+  .nav_list li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 56, ../sass/nav.sass */
+  .nav_link {
+    display: block;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+  }
+}

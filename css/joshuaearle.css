@@ -1,0 +1,25 @@
+/* line 1, ../sass/joshuaearle.sass */
+.Joshuaearle {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: RGB(153, 153, 153);
+  font-style: italic;
+  padding-bottom: 70px;
+}
+/* line 9, ../sass/joshuaearle.sass */
+.Joshuaearle .media .media-body {
+  padding-left: 60px;
+}
+/* line 11, ../sass/joshuaearle.sass */
+.Joshuaearle .media .media {
+  margin: 10px 0 0 0;
+}
+/* line 13, ../sass/joshuaearle.sass */
+.Joshuaearle .media .media .media-left {
+  vertical-align: middle;
+}
+/* line 15, ../sass/joshuaearle.sass */
+.Joshuaearle .media .media h3 {
+  margin: 0;
+}

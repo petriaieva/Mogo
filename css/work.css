@@ -1,0 +1,35 @@
+/* line 1, ../sass/work.sass */
+.work {
+  text-align: center;
+  margin: 0 0 125px 0;
+}
+/* line 5, ../sass/work.sass */
+.work .media {
+  margin: 20px 0 20px 0;
+}
+/* line 7, ../sass/work.sass */
+.work .media-items {
+  margin: 35px 0 35px 0;
+}
+/* line 9, ../sass/work.sass */
+.work .media-items .media-body {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: RGB(153, 153, 153);
+}
+/* line 15, ../sass/work.sass */
+.work .media-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: RGB(51, 51, 51);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/* line 22, ../sass/work.sass */
+.line_grey {
+  background: RGB(229, 229, 229);
+  height: 2px;
+}

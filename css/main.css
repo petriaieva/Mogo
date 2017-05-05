@@ -1,0 +1,68 @@
+/* line 5, ../sass/main.sass */
+.main_bg {
+  width: 100%;
+  height: 1000px;
+  background: url(../img/main_bg.png) no-repeat;
+  position: relative;
+}
+
+/* line 11, ../sass/main.sass */
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+}
+
+/* line 18, ../sass/main.sass */
+.slogan1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* line 25, ../sass/main.sass */
+.slogan2 {
+  margin-bottom: 80px;
+}
+
+/* line 28, ../sass/main.sass */
+.text-slogan2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 130px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 100px;
+}
+
+/* line 38, ../sass/main.sass */
+.rectangle {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+/* line 42, ../sass/main.sass */
+.btn-mogo {
+  text-align: center;
+}
+/* line 44, ../sass/main.sass */
+.btn-mogo button {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid white;
+  border-color: white;
+  padding: 15px 34px;
+  margin: 0 0 30px 0;
+}

@@ -1,0 +1,22 @@
+/* line 1, ../sass/map.sass */
+.map {
+  width: 100%;
+  height: 200px;
+  background: url(../img/map_bg.png) no-repeat;
+  position: relative;
+  text-align: center;
+}
+/* line 8, ../sass/map.sass */
+.map .img_map {
+  margin: 30px auto 0 auto;
+}
+/* line 10, ../sass/map.sass */
+.map h1 {
+  color: #f38181;
+}
+
+/* line 12, ../sass/map.sass */
+#map-canvas {
+  height: 500px;
+  width: 500px;
+}

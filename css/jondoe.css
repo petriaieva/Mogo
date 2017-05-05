@@ -1,0 +1,26 @@
+/* line 1, ../sass/jondoe.sass */
+.JonDoe {
+  background: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: RGB(153, 153, 153);
+  font-style: italic;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* line 10, ../sass/jondoe.sass */
+.JonDoe .media .media-body {
+  padding-left: 60px;
+}
+/* line 12, ../sass/jondoe.sass */
+.JonDoe .media .media {
+  margin: 10px 0 0 0;
+}
+/* line 14, ../sass/jondoe.sass */
+.JonDoe .media .media .media-left {
+  vertical-align: middle;
+}
+/* line 16, ../sass/jondoe.sass */
+.JonDoe .media .media h3 {
+  margin: 0;
+}
