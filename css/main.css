@@ -71,33 +71,40 @@
   /* line 58, ../sass/main.sass */
   .main_bg {
     height: 100%;
+    background: -moz-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 127, 126, 0.6)), color-stop(100%, rgba(233, 210, 131, 0.6)));
+    background: -webkit-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    background: -o-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    background: -ms-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    background: linear-gradient(to bottom, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 );
   }
 
-  /* line 60, ../sass/main.sass */
+  /* line 67, ../sass/main.sass */
   .slogan1 {
     font-size: 36px;
     margin-top: 50px;
   }
 
-  /* line 63, ../sass/main.sass */
+  /* line 70, ../sass/main.sass */
   .text-slogan2 {
     font-size: 72px;
     margin-top: 0;
     height: auto;
   }
 
-  /* line 67, ../sass/main.sass */
+  /* line 74, ../sass/main.sass */
   .rectangle {
     margin: 0;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 70, ../sass/main.sass */
+  /* line 77, ../sass/main.sass */
   .slogan1 {
     font-size: 24px;
   }
 
-  /* line 72, ../sass/main.sass */
+  /* line 79, ../sass/main.sass */
   .text-slogan2 {
     font-size: 48px;
   }
