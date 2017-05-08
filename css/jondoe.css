@@ -8,19 +8,29 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
-/* line 10, ../sass/jondoe.sass */
-.JonDoe .media .media-body {
-  padding-left: 60px;
-}
-/* line 12, ../sass/jondoe.sass */
-.JonDoe .media .media {
+/* line 9, ../sass/jondoe.sass */
+.JonDoe .media {
   margin: 10px 0 0 0;
 }
-/* line 14, ../sass/jondoe.sass */
-.JonDoe .media .media .media-left {
+/* line 11, ../sass/jondoe.sass */
+.JonDoe .media .media-left {
   vertical-align: middle;
 }
-/* line 16, ../sass/jondoe.sass */
-.JonDoe .media .media h3 {
+/* line 13, ../sass/jondoe.sass */
+.JonDoe .media h3 {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 16, ../sass/jondoe.sass */
+  .JonDoe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+
+  /* line 21, ../sass/jondoe.sass */
+  .media .media-body {
+    padding-top: 10px;
+  }
 }

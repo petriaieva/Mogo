@@ -16,7 +16,7 @@
   font-size: 24px;
   font-weight: bold;
   color: white;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /* line 18, ../sass/main.sass */
@@ -71,6 +71,41 @@
   margin: 0 0 30px 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 58, ../sass/main.sass */
+  .main_bg {
+    height: 100%;
+  }
+
+  /* line 60, ../sass/main.sass */
+  .slogan1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+
+  /* line 63, ../sass/main.sass */
+  .text-slogan2 {
+    font-size: 72px;
+    margin-top: 0;
+    height: auto;
+  }
+
+  /* line 67, ../sass/main.sass */
+  .rectangle {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 70, ../sass/main.sass */
+  .slogan1 {
+    font-size: 24px;
+  }
+
+  /* line 72, ../sass/main.sass */
+  .text-slogan2 {
+    font-size: 48px;
+  }
+}
 /* NAVBAR */
 /* line 6, ../sass/nav.sass */
 .nav {
@@ -123,26 +158,31 @@
   color: #fce38a;
 }
 
-@media screen and (max-width: 767px) {
-  /* line 44, ../sass/nav.sass */
+/* line 42, ../sass/nav.sass */
+.nav_link:focus {
+  color: #fce38a;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 45, ../sass/nav.sass */
   .nav {
     padding: 0;
   }
 
-  /* line 47, ../sass/nav.sass */
+  /* line 48, ../sass/nav.sass */
   .nav_list {
     margin: 0;
     padding: 0;
   }
 
-  /* line 51, ../sass/nav.sass */
+  /* line 52, ../sass/nav.sass */
   .nav_list li {
     display: block;
     margin: 0;
     padding: 0;
   }
 
-  /* line 56, ../sass/nav.sass */
+  /* line 57, ../sass/nav.sass */
   .nav_link {
     display: block;
     margin: 0;
@@ -246,65 +286,81 @@ h1 {
 }
 /* line 70, ../sass/about.sass */
 .gradient .inner {
-  background: -moz-linear-gradient(top, rgba(229, 127, 126, 0) 0%, rgba(233, 210, 131, 0) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 127, 126, 0)), color-stop(100%, rgba(233, 210, 131, 0)));
-  background: -webkit-linear-gradient(top, rgba(229, 127, 126, 0) 0%, rgba(233, 210, 131, 0) 100%);
-  background: -o-linear-gradient(top, rgba(229, 127, 126, 0) 0%, rgba(233, 210, 131, 0) 100%);
-  background: -ms-linear-gradient(top, rgba(229, 127, 126, 0) 0%, rgba(233, 210, 131, 0) 100%);
-  background: linear-gradient(to bottom, rgba(229, 127, 126, 0) 0%, rgba(233, 210, 131, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 );
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 2;
-  box-shadow: 10px 10px rgba(149, 225, 211, 0);
-  opacity: 0;
 }
-/* line 87, ../sass/about.sass */
-.gradient .inner:hover {
-  opacity: 1;
+/* line 77, ../sass/about.sass */
+.gradient .inner .btn-group {
+  visibility: hidden;
 }
-/* line 90, ../sass/about.sass */
-.gradient .about_picture {
-  margin: 0px;
-}
-/* line 92, ../sass/about.sass */
-.gradient h5 {
+/* line 79, ../sass/about.sass */
+.gradient .inner h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: RGB(255, 255, 255);
   text-transform: uppercase;
+  visibility: hidden;
+}
+/* line 87, ../sass/about.sass */
+.gradient .inner .img_hover {
+  margin-top: 25%;
+  visibility: hidden;
+}
+/* line 90, ../sass/about.sass */
+.gradient .inner:hover {
+  background: -moz-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 127, 126, 0.6)), color-stop(100%, rgba(233, 210, 131, 0.6)));
+  background: -webkit-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+  background: -o-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+  background: -ms-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 );
+  box-shadow: 10px 10px rgba(149, 225, 211, 0.7);
 }
 /* line 99, ../sass/about.sass */
-.gradient .img_hover {
-  margin-top: 25%;
+.gradient .inner:hover .btn-group {
+  visibility: visible;
 }
-/* line 102, ../sass/about.sass */
+/* line 101, ../sass/about.sass */
+.gradient .inner:hover h5 {
+  visibility: visible;
+}
+/* line 103, ../sass/about.sass */
+.gradient .inner:hover .img_hover {
+  visibility: visible;
+}
+/* line 106, ../sass/about.sass */
+.gradient .about_picture {
+  margin: 0px;
+}
+/* line 110, ../sass/about.sass */
 .gradient .btn-default {
   color: #f38181;
   background-color: #fce38a;
   border-color: #f9bd87;
 }
-/* line 107, ../sass/about.sass */
+/* line 115, ../sass/about.sass */
 .gradient .btn-default:hover {
   color: white;
   background-color: #f38181;
   border-color: #f38181;
 }
-/* line 111, ../sass/about.sass */
+/* line 119, ../sass/about.sass */
 .gradient .btn-group {
   margin-top: 60%;
 }
 
-/* line 114, ../sass/about.sass */
+/* line 122, ../sass/about.sass */
 .about_blue {
   background: #95e1d3;
   padding: 0 0 50px 0;
 }
-/* line 119, ../sass/about.sass */
+/* line 127, ../sass/about.sass */
 .about_blue h3 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -313,7 +369,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 126, ../sass/about.sass */
+/* line 134, ../sass/about.sass */
 .about_blue h4 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -322,11 +378,51 @@ h1 {
   text-align: center;
 }
 
-/* line 132, ../sass/about.sass */
+/* line 140, ../sass/about.sass */
 .work_picture {
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 144, ../sass/about.sass */
+  .about {
+    padding-bottom: 30px;
+  }
+
+  /* line 146, ../sass/about.sass */
+  .about_blue {
+    padding: 10px 0 0 0;
+  }
+  /* line 148, ../sass/about.sass */
+  .about_blue h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+  }
+  /* line 156, ../sass/about.sass */
+  .about_blue h4 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  /* line 162, ../sass/about.sass */
+  h3 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  /* line 165, ../sass/about.sass */
+  h1 {
+    font-size: 24px;
+  }
+}
 /* line 1, ../sass/work.sass */
 .work {
   text-align: center;
@@ -363,6 +459,12 @@ h1 {
   height: 2px;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 26, ../sass/work.sass */
+  .work {
+    margin-bottom: 30px;
+  }
+}
 /* line 1, ../sass/unique_design.sass */
 .unique_design {
   text-align: center;
@@ -467,6 +569,18 @@ h1 {
   outline: 1px solid slategrey;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 62, ../sass/service.sass */
+  .img_center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 65, ../sass/service.sass */
+  .service {
+    margin-bottom: 30px;
+  }
+}
 /* line 1, ../sass/jondoe.sass */
 .JonDoe {
   background: #f8f8f8;
@@ -477,23 +591,32 @@ h1 {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-/* line 10, ../sass/jondoe.sass */
-.JonDoe .media .media-body {
-  padding-left: 60px;
-}
-/* line 12, ../sass/jondoe.sass */
-.JonDoe .media .media {
+/* line 9, ../sass/jondoe.sass */
+.JonDoe .media {
   margin: 10px 0 0 0;
 }
-/* line 14, ../sass/jondoe.sass */
-.JonDoe .media .media .media-left {
+/* line 11, ../sass/jondoe.sass */
+.JonDoe .media .media-left {
   vertical-align: middle;
 }
-/* line 16, ../sass/jondoe.sass */
-.JonDoe .media .media h3 {
+/* line 13, ../sass/jondoe.sass */
+.JonDoe .media h3 {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 16, ../sass/jondoe.sass */
+  .JonDoe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+
+  /* line 21, ../sass/jondoe.sass */
+  .media .media-body {
+    padding-top: 10px;
+  }
+}
 /* line 1, ../sass/joshuaearle.sass */
 .Joshuaearle {
   background: white;
@@ -503,23 +626,29 @@ h1 {
   font-style: italic;
   padding-bottom: 70px;
 }
-/* line 9, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media-body {
-  padding-left: 60px;
-}
-/* line 11, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media {
+/* line 8, ../sass/joshuaearle.sass */
+.Joshuaearle .media {
   margin: 10px 0 0 0;
 }
-/* line 13, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media .media-left {
+/* line 10, ../sass/joshuaearle.sass */
+.Joshuaearle .media .media-left {
   vertical-align: middle;
 }
-/* line 15, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media h3 {
+/* line 12, ../sass/joshuaearle.sass */
+.Joshuaearle .media h3 {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 15, ../sass/joshuaearle.sass */
+  .Joshuaearle {
+    font-size: 14px;
+  }
+  /* line 18, ../sass/joshuaearle.sass */
+  .Joshuaearle .media .media-body {
+    padding-top: 10px;
+  }
+}
 /* line 1, ../sass/whatpeoplesay.sass */
 .Whatpeoplesay {
   text-align: center;
@@ -566,6 +695,32 @@ h1 {
   margin: 10px 0 10px 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 36, ../sass/whatpeoplesay.sass */
+  .Whatpeoplesay .media-items .media {
+    margin-top: 30px;
+  }
+  /* line 38, ../sass/whatpeoplesay.sass */
+  .Whatpeoplesay .media-items .rectangle {
+    margin: 5px 0 5px 0;
+  }
+  /* line 41, ../sass/whatpeoplesay.sass */
+  .Whatpeoplesay .media-items .media-body {
+    line-height: 1.4;
+  }
+  /* line 43, ../sass/whatpeoplesay.sass */
+  .Whatpeoplesay .rectangle {
+    margin: 5px 0 5px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 46, ../sass/whatpeoplesay.sass */
+  .Whatpeoplesay {
+    height: 100%;
+    background: #f2f2f2;
+    padding-bottom: 10px;
+  }
+}
 /* line 1, ../sass/map.sass */
 .map {
   width: 100%;
@@ -706,4 +861,17 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 80, ../sass/footer.sass */
+  .footer h4 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 84, ../sass/footer.sass */
+  .footer .images_instagram {
+    margin-left: 20px;
+  }
 }

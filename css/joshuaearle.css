@@ -7,19 +7,26 @@
   font-style: italic;
   padding-bottom: 70px;
 }
-/* line 9, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media-body {
-  padding-left: 60px;
-}
-/* line 11, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media {
+/* line 8, ../sass/joshuaearle.sass */
+.Joshuaearle .media {
   margin: 10px 0 0 0;
 }
-/* line 13, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media .media-left {
+/* line 10, ../sass/joshuaearle.sass */
+.Joshuaearle .media .media-left {
   vertical-align: middle;
 }
-/* line 15, ../sass/joshuaearle.sass */
-.Joshuaearle .media .media h3 {
+/* line 12, ../sass/joshuaearle.sass */
+.Joshuaearle .media h3 {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 15, ../sass/joshuaearle.sass */
+  .Joshuaearle {
+    font-size: 14px;
+  }
+  /* line 18, ../sass/joshuaearle.sass */
+  .Joshuaearle .media .media-body {
+    padding-top: 10px;
+  }
 }

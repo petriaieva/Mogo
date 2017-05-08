@@ -68,36 +68,44 @@ h1
     margin: 10px
     
     .inner
-        background: -moz-linear-gradient(top, $color_pink 0%, $color_yellow 100%) /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color_pink), color-stop(100%,$color_yellow)) /* Chrome,Safari4+ */
-        background: -webkit-linear-gradient(top, $color_pink 0%,$color_yellow 100%) /* Chrome10+,Safari5.1+ */
-        background: -o-linear-gradient(top, $color_pink 0%,$color_yellow 100%) /* Opera 11.10+ */
-        background: -ms-linear-gradient(top, $color_pink 0%,$color_yellow 100%) /* IE10+ */
-        background: linear-gradient(to bottom, $color_pink 0%,$color_yellow 100%) /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 ) /* IE6-9 */
         position: absolute
         top: 0
         bottom: 0
         left: 0
         right: 0
         z-index: 2
-        box-shadow: 10px 10px $color_blue_opacity
-        opacity: 0
-        
+        .btn-group
+            visibility: hidden
+        h5
+            font-family: 'Montserrat', sans-serif
+            font-size: 18px
+            font-weight: bold
+            color: RGB(255,255,255)
+            text-transform: uppercase
+            visibility: hidden
+                
+        .img_hover
+            margin-top: 25%
+            visibility: hidden
     .inner:hover
-        opacity: 1
-   
+        background: -moz-linear-gradient(top, rgba(229,127,126, 0.6) 0%, rgba(233,210,131, 0.6) 100%) /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,127,126, 0.6)), color-stop(100%,rgba(233,210,131, 0.6))) /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(229,127,126, 0.6) 0%,rgba(233,210,131, 0.6) 100%) /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(229,127,126, 0.6) 0%,rgba(233,210,131, 0.6) 100%) /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(229,127,126, 0.6) 0%,rgba(233,210,131, 0.6) 100%) /* IE10+ */
+        background: linear-gradient(to bottom, rgba(229,127,126, 0.6) 0%,rgba(233,210,131, 0.6) 100%) /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 ) /* IE6-9 */
+        box-shadow: 10px 10px $color_blue_opacity
+        .btn-group
+            visibility: visible
+        h5
+            visibility: visible
+        .img_hover
+            visibility: visible
+            
     .about_picture
         margin: 0px
-    h5
-        font-family: 'Montserrat', sans-serif
-        font-size: 18px
-        font-weight: bold
-        color: RGB(255,255,255)
-        text-transform: uppercase
-                
-    .img_hover
-        margin-top: 25%
+    
         
     .btn-default 
         color: rgb(243, 129, 129)
@@ -131,3 +139,29 @@ h1
         text-align: center
 .work_picture
     padding: 0
+    
+@media screen and (max-width: 768px)
+    .about
+        padding-bottom: 30px
+    .about_blue
+        padding: 10px 0 0 0
+        h3
+            color: $color_whight
+            font-family: 'Montserrat', sans-serif
+            font-size: 14px
+            font-weight: bold        
+            text-transform: uppercase
+            text-align: center
+            margin-top: 0
+        h4
+            color: $color_whight
+            font-family: 'Montserrat', sans-serif
+            font-size: 10px
+            text-transform: uppercase
+            text-align: center
+    h3
+        margin-top: 30px
+        font-size: 18px
+    h1
+        font-size: 24px
+            

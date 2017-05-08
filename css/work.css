@@ -33,3 +33,10 @@
   background: RGB(229, 229, 229);
   height: 2px;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 26, ../sass/work.sass */
+  .work {
+    margin-bottom: 30px;
+  }
+}

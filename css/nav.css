@@ -50,26 +50,31 @@
   color: #fce38a;
 }
 
-@media screen and (max-width: 767px) {
-  /* line 44, ../sass/nav.sass */
+/* line 42, ../sass/nav.sass */
+.nav_link:focus {
+  color: #fce38a;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 45, ../sass/nav.sass */
   .nav {
     padding: 0;
   }
 
-  /* line 47, ../sass/nav.sass */
+  /* line 48, ../sass/nav.sass */
   .nav_list {
     margin: 0;
     padding: 0;
   }
 
-  /* line 51, ../sass/nav.sass */
+  /* line 52, ../sass/nav.sass */
   .nav_list li {
     display: block;
     margin: 0;
     padding: 0;
   }
 
-  /* line 56, ../sass/nav.sass */
+  /* line 57, ../sass/nav.sass */
   .nav_link {
     display: block;
     margin: 0;
