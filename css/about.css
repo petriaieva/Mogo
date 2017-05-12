@@ -196,12 +196,16 @@ h1 {
   .about {
     padding-bottom: 30px;
   }
-
   /* line 145, ../sass/about.sass */
+  .about .about_pictures {
+    margin: 10px 0 0 0;
+  }
+
+  /* line 147, ../sass/about.sass */
   .about_blue {
     padding: 10px 0 0 0;
   }
-  /* line 147, ../sass/about.sass */
+  /* line 149, ../sass/about.sass */
   .about_blue h3 {
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -211,7 +215,7 @@ h1 {
     text-align: center;
     margin-top: 0;
   }
-  /* line 155, ../sass/about.sass */
+  /* line 157, ../sass/about.sass */
   .about_blue h4 {
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -220,14 +224,21 @@ h1 {
     text-align: center;
   }
 
-  /* line 161, ../sass/about.sass */
+  /* line 163, ../sass/about.sass */
   h3 {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 18px;
   }
 
-  /* line 164, ../sass/about.sass */
+  /* line 166, ../sass/about.sass */
   h1 {
     font-size: 24px;
+    margin: 15px 0 15px 0;
+  }
+
+  /* line 170, ../sass/about.sass */
+  .gradient .about_picture {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
