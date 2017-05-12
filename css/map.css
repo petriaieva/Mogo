@@ -20,3 +20,11 @@
   height: 500px;
   width: 500px;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 16, ../sass/map.sass */
+  #map-canvas {
+    height: 250px;
+    width: 250px;
+  }
+}
