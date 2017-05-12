@@ -28,6 +28,8 @@
     color: RGB(153,153,153)
     font-style: italic
     overflow-y: scroll
+    min-height: 81px
+    
     
 /*.glyphicon-menu-down
     color: RGB(153,153,153)
@@ -63,5 +65,13 @@
         margin-right: auto
     .service
         margin-bottom: 30px
+        
+@media screen and (max-width: 992px)            
+    .service
+        .panel-body
+            max-height: 160px
+        #service_img
+            margin-left: auto
+            margin-right: auto
         .panel-group
             margin-top: 10px
