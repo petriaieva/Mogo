@@ -2,7 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 /* BEM */
 /* block-name--element-name__modifier */
-/* line 5, ../sass/main.sass */
+/* line 4, ../sass/main.sass */
+html {
+  width: 100%;
+}
+
+/* line 6, ../sass/main.sass */
 .main_bg {
   width: 100%;
   height: 1000px;
@@ -10,7 +15,7 @@
   position: relative;
 }
 
-/* line 11, ../sass/main.sass */
+/* line 12, ../sass/main.sass */
 .logo {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -19,7 +24,7 @@
   margin-top: 40px;
 }
 
-/* line 18, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .slogan1 {
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
@@ -28,12 +33,12 @@
   text-align: center;
 }
 
-/* line 25, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 .slogan2 {
   margin-bottom: 80px;
 }
 
-/* line 28, ../sass/main.sass */
+/* line 29, ../sass/main.sass */
 .text-slogan2 {
   font-family: "Montserrat", sans-serif;
   font-size: 130px;
@@ -45,17 +50,17 @@
   height: 100px;
 }
 
-/* line 38, ../sass/main.sass */
+/* line 39, ../sass/main.sass */
 .rectangle {
   text-align: center;
   margin: 30px 0 30px 0;
 }
 
-/* line 42, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .btn-mogo {
   text-align: center;
 }
-/* line 44, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 .btn-mogo button {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -72,43 +77,43 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* line 58, ../sass/main.sass */
+  /* line 59, ../sass/main.sass */
   .main_bg {
     height: 100%;
-    background: -moz-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 127, 126, 0.6)), color-stop(100%, rgba(233, 210, 131, 0.6)));
-    background: -webkit-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: -o-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: -ms-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: linear-gradient(to bottom, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    background: -moz-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e98282), color-stop(100%, #f0d98a));
+    background: -webkit-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: -o-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: -ms-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: linear-gradient(to bottom, #e98282 0%, #f0d98a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 );
   }
 
-  /* line 67, ../sass/main.sass */
+  /* line 68, ../sass/main.sass */
   .slogan1 {
     font-size: 36px;
     margin-top: 50px;
   }
 
-  /* line 70, ../sass/main.sass */
+  /* line 71, ../sass/main.sass */
   .text-slogan2 {
     font-size: 72px;
     margin-top: 0;
     height: auto;
   }
 
-  /* line 74, ../sass/main.sass */
+  /* line 75, ../sass/main.sass */
   .rectangle {
     margin: 0;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 77, ../sass/main.sass */
+  /* line 78, ../sass/main.sass */
   .slogan1 {
     font-size: 24px;
   }
 
-  /* line 79, ../sass/main.sass */
+  /* line 80, ../sass/main.sass */
   .text-slogan2 {
     font-size: 48px;
   }
@@ -288,10 +293,9 @@ h1 {
 /* line 65, ../sass/about.sass */
 .gradient {
   position: relative;
-  display: inline-block;
-  margin: 10px;
+  padding: 10px;
 }
-/* line 70, ../sass/about.sass */
+/* line 69, ../sass/about.sass */
 .gradient .inner {
   position: absolute;
   top: 0;
@@ -300,11 +304,11 @@ h1 {
   right: 0;
   z-index: 2;
 }
-/* line 77, ../sass/about.sass */
+/* line 76, ../sass/about.sass */
 .gradient .inner .btn-group {
   visibility: hidden;
 }
-/* line 79, ../sass/about.sass */
+/* line 78, ../sass/about.sass */
 .gradient .inner h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -313,12 +317,12 @@ h1 {
   text-transform: uppercase;
   visibility: hidden;
 }
-/* line 87, ../sass/about.sass */
+/* line 86, ../sass/about.sass */
 .gradient .inner .img_hover {
   margin-top: 25%;
   visibility: hidden;
 }
-/* line 90, ../sass/about.sass */
+/* line 89, ../sass/about.sass */
 .gradient .inner:hover {
   background: -moz-linear-gradient(top, rgba(229, 127, 126, 0) 0%, rgba(233, 210, 131, 0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 127, 126, 0)), color-stop(100%, rgba(233, 210, 131, 0)));
@@ -329,45 +333,45 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 );
   box-shadow: 10px 10px rgba(149, 225, 211, 0);
 }
-/* line 99, ../sass/about.sass */
+/* line 98, ../sass/about.sass */
 .gradient .inner:hover .btn-group {
   visibility: visible;
 }
-/* line 101, ../sass/about.sass */
+/* line 100, ../sass/about.sass */
 .gradient .inner:hover h5 {
   visibility: visible;
 }
-/* line 103, ../sass/about.sass */
+/* line 102, ../sass/about.sass */
 .gradient .inner:hover .img_hover {
   visibility: visible;
 }
-/* line 106, ../sass/about.sass */
+/* line 105, ../sass/about.sass */
 .gradient .about_picture {
   margin: 0px;
 }
-/* line 110, ../sass/about.sass */
+/* line 109, ../sass/about.sass */
 .gradient .btn-default {
   color: #f38181;
   background-color: #fce38a;
   border-color: #f9bd87;
 }
-/* line 115, ../sass/about.sass */
+/* line 114, ../sass/about.sass */
 .gradient .btn-default:hover {
   color: white;
   background-color: #f38181;
   border-color: #f38181;
 }
-/* line 119, ../sass/about.sass */
+/* line 118, ../sass/about.sass */
 .gradient .btn-group {
   margin-top: 60%;
 }
 
-/* line 122, ../sass/about.sass */
+/* line 121, ../sass/about.sass */
 .about_blue {
   background: #95e1d3;
   padding: 0 0 50px 0;
 }
-/* line 127, ../sass/about.sass */
+/* line 126, ../sass/about.sass */
 .about_blue h3 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -376,7 +380,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 134, ../sass/about.sass */
+/* line 133, ../sass/about.sass */
 .about_blue h4 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -385,22 +389,22 @@ h1 {
   text-align: center;
 }
 
-/* line 140, ../sass/about.sass */
+/* line 139, ../sass/about.sass */
 .work_picture {
   padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 144, ../sass/about.sass */
+  /* line 143, ../sass/about.sass */
   .about {
     padding-bottom: 30px;
   }
 
-  /* line 146, ../sass/about.sass */
+  /* line 145, ../sass/about.sass */
   .about_blue {
     padding: 10px 0 0 0;
   }
-  /* line 148, ../sass/about.sass */
+  /* line 147, ../sass/about.sass */
   .about_blue h3 {
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -410,7 +414,7 @@ h1 {
     text-align: center;
     margin-top: 0;
   }
-  /* line 156, ../sass/about.sass */
+  /* line 155, ../sass/about.sass */
   .about_blue h4 {
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -419,13 +423,13 @@ h1 {
     text-align: center;
   }
 
-  /* line 162, ../sass/about.sass */
+  /* line 161, ../sass/about.sass */
   h3 {
     margin-top: 30px;
     font-size: 18px;
   }
 
-  /* line 165, ../sass/about.sass */
+  /* line 164, ../sass/about.sass */
   h1 {
     font-size: 24px;
   }
@@ -586,6 +590,10 @@ h1 {
   /* line 65, ../sass/service.sass */
   .service {
     margin-bottom: 30px;
+  }
+  /* line 67, ../sass/service.sass */
+  .service .panel-group {
+    margin-top: 10px;
   }
 }
 /* line 1, ../sass/jondoe.sass */

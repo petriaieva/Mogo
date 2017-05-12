@@ -1,4 +1,9 @@
-/* line 5, ../sass/main.sass */
+/* line 4, ../sass/main.sass */
+html {
+  width: 100%;
+}
+
+/* line 6, ../sass/main.sass */
 .main_bg {
   width: 100%;
   height: 1000px;
@@ -6,7 +11,7 @@
   position: relative;
 }
 
-/* line 11, ../sass/main.sass */
+/* line 12, ../sass/main.sass */
 .logo {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -15,7 +20,7 @@
   margin-top: 40px;
 }
 
-/* line 18, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .slogan1 {
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
@@ -24,12 +29,12 @@
   text-align: center;
 }
 
-/* line 25, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 .slogan2 {
   margin-bottom: 80px;
 }
 
-/* line 28, ../sass/main.sass */
+/* line 29, ../sass/main.sass */
 .text-slogan2 {
   font-family: "Montserrat", sans-serif;
   font-size: 130px;
@@ -41,17 +46,17 @@
   height: 100px;
 }
 
-/* line 38, ../sass/main.sass */
+/* line 39, ../sass/main.sass */
 .rectangle {
   text-align: center;
   margin: 30px 0 30px 0;
 }
 
-/* line 42, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .btn-mogo {
   text-align: center;
 }
-/* line 44, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 .btn-mogo button {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -68,43 +73,43 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* line 58, ../sass/main.sass */
+  /* line 59, ../sass/main.sass */
   .main_bg {
     height: 100%;
-    background: -moz-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 127, 126, 0.6)), color-stop(100%, rgba(233, 210, 131, 0.6)));
-    background: -webkit-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: -o-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: -ms-linear-gradient(top, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
-    background: linear-gradient(to bottom, rgba(229, 127, 126, 0.6) 0%, rgba(233, 210, 131, 0.6) 100%);
+    background: -moz-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e98282), color-stop(100%, #f0d98a));
+    background: -webkit-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: -o-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: -ms-linear-gradient(top, #e98282 0%, #f0d98a 100%);
+    background: linear-gradient(to bottom, #e98282 0%, #f0d98a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57f7e', endColorstr='#e9d283',GradientType=0 );
   }
 
-  /* line 67, ../sass/main.sass */
+  /* line 68, ../sass/main.sass */
   .slogan1 {
     font-size: 36px;
     margin-top: 50px;
   }
 
-  /* line 70, ../sass/main.sass */
+  /* line 71, ../sass/main.sass */
   .text-slogan2 {
     font-size: 72px;
     margin-top: 0;
     height: auto;
   }
 
-  /* line 74, ../sass/main.sass */
+  /* line 75, ../sass/main.sass */
   .rectangle {
     margin: 0;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 77, ../sass/main.sass */
+  /* line 78, ../sass/main.sass */
   .slogan1 {
     font-size: 24px;
   }
 
-  /* line 79, ../sass/main.sass */
+  /* line 80, ../sass/main.sass */
   .text-slogan2 {
     font-size: 48px;
   }
